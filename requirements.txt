@@ -1,11 +1,12 @@
-# RunPod 无服务器运行所需
+# RunPod 无服务器
 runpod
 
 # 常用依赖
 requests
 Pillow
-timm
-einops
 
-# DINOv2（需要 git，所以 Dockerfile 里要装 git）
-git+https://github.com/facebookresearch/dino.git
+# timm 内置 DINO v1 权重（避免拉 facebookresearch/dino 仓库）
+timm==0.9.12
+
+# （可选）张量工具
+einops
