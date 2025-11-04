@@ -1,0 +1,5 @@
+torch
+torchvision
+Pillow
+requests
+git+https://github.com/facebookresearch/dinov2.git
