@@ -8,4 +8,4 @@ timm
 einops
 
 # DINOv2（需要 git，所以 Dockerfile 里要装 git）
-git+https://github.com/facebookresearch/dinov2.git
+git+https://github.com/facebookresearch/dino.git
