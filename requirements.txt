@@ -5,8 +5,5 @@ runpod
 requests
 Pillow
 
-# timm 内置 DINO v1 权重（避免拉 facebookresearch/dino 仓库）
-timm==0.9.12
-
-# （可选）张量工具
+# 可选：张量/工具库
 einops
